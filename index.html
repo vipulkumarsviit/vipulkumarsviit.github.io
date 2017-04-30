@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Vupul Kumar | Blog</title>
+        <title>Vipul Kumar | Blog</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        
+        <link href="style.css" rel="stylesheet">
+        <script type ="text.javascript" src="script.js"></script>
         <!-- Latest compiled and minified CSS & JS -->
+        
         <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="//code.jquery.com/jquery.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         
     </head>
-    <body>
+      <div class="preload">
+        <div class="logo">
+            java<span style="color: darkturquoise;">Sphare</span>
+        </div>
+        <div class="loader-frame">
+            <div class="loader1" id="loader1"></div>
+            <div class="loader2" id="loader2"> </div>
+        </div>
+    </div>
+    <body onload= "preLoading()">
     
     <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -23,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="bs3">Vipul Kumar</a>
+            <a class="navbar-brand" href="bs3">Vipul Kumar | Blogs</a>
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
