@@ -47,7 +47,7 @@ border-radius: 50%;
     height: 70px;
     border-top: 5px solid azure;
     border-bottom: 5px solid azure;
-    animation: clockwisespin 2s linear 3;
+    animation: clockwisespin 2s linear infinite;
 }
 
 
@@ -58,7 +58,7 @@ border-radius: 50%;
     border-right: 5px solid darkturquoise;
     top: 5;
     left: 5;
-    animation: anticlockwisespin 2s linear 3;
+    animation: anticlockwisespin 2s linear infinite;
 } 
 
 @keyframes clockwisespin{
