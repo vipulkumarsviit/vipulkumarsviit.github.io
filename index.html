@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Vipul Kumar | Blog</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./css/style.css" rel="stylesheet">
-        <script type ="text.javascript" src="./js/script.js"></script>
-        <!-- Latest compiled and minified CSS & JS -->
-        
-        <link rel="stylesheet" media="screen" href="./css/bootstrap.min.css">
-        <script src="./js/jquery.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
-        <script>
-        function preLoading(){
-            $(".preload").hide();
-        }
-            </script>
-    </head>
-      <div class="preload">
-        <div class="logo">
-            java<span style="color: darkturquoise;">Sphare</span>
-        </div>
-        <div class="loader-frame">
-            <div class="loader1" id="loader1"></div>
-            <div class="loader2" id="loader2"> </div>
-        </div>
-    </div>
-    <body onload= "preLoading()">
+
+<head>
+    <title>Vipul Kumar | Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/style.css" rel="stylesheet">
+    <script type="text.javascript" src="./js/script.js"></script>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" media="screen" href="./css/bootstrap.min.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
     
+    <script type="text/javascript">
+        function onloading() {
+            setTimeout(function () {
+                $('.preload').fadeOut(500);
+            }
+                , 2000);
+        }
+    </script>
+</head>
+<body onload="onloading()">
+<div class="preload">
+    <div class="logo">
+        java<span style="color: darkturquoise;">Sphare</span>
+    </div>
+    <div class="loader-frame">
+        <div class="loader1" id="loader1"></div>
+        <div class="loader2" id="loader2"> </div>
+    </div>
+</div>
     <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -39,12 +43,12 @@
             </button>
             <a class="navbar-brand" href="bs3">Vipul Kumar | Blogs</a>
         </div>
-    
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Link</a></li>
+                <li><a href="#">About</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#">Link</a></li>
@@ -57,9 +61,10 @@
                     </ul>
                 </li>
             </ul>
-        </div><!-- /.navbar-collapse -->
+        </div>
+        <!-- /.navbar-collapse -->
     </nav>
-    
+
     <div class="jumbotron">
         <div class="container">
             <h1>Hello, world!</h1>
@@ -69,6 +74,7 @@
             </p>
         </div>
     </div>
-    
-    </body>
+
+</body>
+
 </html>
