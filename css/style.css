@@ -1,9 +1,24 @@
+.vodafone{
+    height: 100vh;
+    width: 100%;
+    background: #333;
+    background-image: url("../img/banner.png");
+    background-size: cover;
+
+}
+.vodafone-heading{
+    font-size: 40px;
+    text-shadow: -1px 2px 2px #000;
+    color: azure;
+    top: 55%;
+    left: 6%;
+  position: absolute;
+}
 
 body{
     margin: 0;
     padding: 0;
     font-family: monospace;
-
 }
 html,body
 {
@@ -15,7 +30,7 @@ html,body
     width: 100%;
     background: #333;
     z-index: 1;   
-      display:flex; 
+    display:flex; 
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
@@ -72,4 +87,148 @@ border-radius: 50%;
 @keyframes fadeout{
     from{opacity: 1;}
     to{opacity: 0;}
+}
+/* The side navigation menu */
+
+        .sidenav {
+            height: 100%;
+            /* 100% Full-height */
+            width: 0;
+            /* 0 width - change this with JavaScript */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Stay on top */
+            top: 0;
+            left: 0;
+            background-color: #111;
+            /* Black*/
+            overflow-x: hidden;
+            /* Disable horizontal scroll */
+            padding-top: 60px;
+            /* Place content 60px from the top */
+            transition: 0.5s;
+            /* 0.5 second transition effect to slide in the sidenav */
+        }
+        /* The navigation menu links */
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s
+        }
+        /* When you mouse over the navigation links, change their color */
+
+        .sidenav a:hover,
+        .offcanvas a:focus {
+            color: #f1f1f1;
+        }
+        /* Position and style the close button (top right corner) */
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+        #main {
+            transition: margin-left .5s;
+            padding: 20px;
+        }
+        /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+
+        .header {
+            background-color: #E60000;
+            color: #FFFFFF;
+        }
+
+        .sub-header {
+            background-color: #AFAFAF;
+            color: #FFFFFF;
+            padding-top: 5px;
+        }
+
+        .menu {
+            border: 1px solid #FFFFFF;
+            text-align: center;
+        }
+        .menu-active{
+            background-color: #fff;
+            color: #777;
+            text-align: center;
+        }
+
+        .side-navbar {
+            position: fixed;
+            top: 70px;
+            left: 0;
+            height: 100%;
+            background-color: #AFAFAF;
+            padding: 5px;
+        }
+        .side-navbar-items{
+            padding: 10px 5px;
+        }
+        .navbody-header{
+            background-color: #FFFFFF;
+            color: #777777;
+            padding: 2px;
+            float: left;
+            padding-left: 70px;
+        }
+        .navbody-header-item-active{
+            padding-bottom: 2px;
+            border-bottom: 2px solid #E40101;
+        }
+        .navbody-header-body{
+            background-color: #f3f3f3;
+            color: #FFFFFF;
+            margin: 5px;
+            padding-left: 70px;
+        }
+        .navbody-header-body-contents{
+            padding: 5px;
+          
+        }
+
+        .card-500{
+            padding: 5px;
+            height: 250px;
+        }
+        .card-250{
+            padding: 5px;
+
+            height: 120px;
+        }
+        .card-heading{
+            background-color: #e3e3e3;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding: 10px 2px;
+        }
+        
+        .card-contents{
+            padding: 5px;
+            background-color: #FFFFFF;
+            color: #777;
+        }
+
+.brand-logo{
+position: absolute;
+z-index: 1;
 }
