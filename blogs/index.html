@@ -1,1 +1,66 @@
-blog posts
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vipul Kumar | Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="./../css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gudea|Lato|Rokkitt" rel="stylesheet">
+    <script type="text/javascript" src="./../js/jquery.min.js"></script>
+    <script type="text/javascript" src="./../js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="./../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="./../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./../js/5e627ef047.js"></script>
+    <script type="text/javascript" src="./../js/script.js"></script>
+    <script type="text/javascript">
+        function onloading() {
+            setTimeout(function () {
+                $('.preload').fadeOut(500);
+            }
+                , 2000);
+        }
+        $(function () {
+            $("#drag").draggable();
+        });
+    </script>
+</head>
+
+<body onload="onloading()">
+    <div class="preload">
+        <div class="logo">
+            { Vipul
+            <span style="color: darkturquoise;"> Kumar </span>}
+        </div>
+        <div class="loader-frame">
+            <div class="loader1" id="loader1"></div>
+            <div class="loader2" id="loader2"> </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="bs3">Vipul Kumar | Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/blogs">Blog Pasts</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+</body>
+
+</html>
