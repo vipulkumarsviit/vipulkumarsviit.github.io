@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+PRODID:-//ON24 Corporation//ON24 Corporation
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20180619T170000Z
+DTEND:20180619T180000Z
+LOCATION: Webcast
+TRANSP:OPAQUE
+UID:207080598020180619T065300Z
+DESCRIPTION:Thank you for registering for Blockchain for Enterprise Applications: Beyond Bitcoin and Crypto, to Business Networks and Supply Chains. \n\nLIVE WEBCAST DATE:  June 19, 2018 \nLIVE WEBCAST TIME:  01:00 PM EDT \n\nUse the link below to enter the webcast up to 15 minutes before the start. \n\nWEBCAST LINK:  https://event.on24.com/wcc/r/1662248/934CD6C88727E9DCE60C7871614D2BD5 \nEMAIL:  vipulkumarsviit@gmail.com \n\nThank you and enjoy the webcast!
+SUMMARY:Blockchain for Enterprise Applications: Beyond Bitcoin and Crypto, to Business Networks and Supply Chains
+PRIORITY:5
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+title:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
+
